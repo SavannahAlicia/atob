@@ -1,0 +1,19 @@
+Package: atob
+Title: Creates Random Routes Between Two Points
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Savannah",
+           family = "Rogers",
+           role = c("aut", "cre"),
+           email = "savannah.a.rogers@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package creates random routes between two points using the algorithm defined in the 2015 Technitis et al. article "From A to B randomly a point to point random trajectory generator for animal movement." It also allows visualization of the spatial sampling of the overlap between two circles. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    plotrix,
+    geosphere,
+    ggmap,
+    ggplot2
+RoxygenNote: 6.1.99.9001
